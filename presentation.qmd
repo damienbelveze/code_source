@@ -1,0 +1,133 @@
+---
+title: "préserver et ouvrir ses codes sources et logiciels "
+subtitle: "Printemps de la donnée 2024"
+date: 13/06/2024
+author: 
+    - name: Jozefina Sadowska
+      email: josephine.sadowska@inria.fr
+      affilisation: 
+        - name: INRIA
+          city: Rennes
+          
+    - name: Damien Belvèze
+      email: damien.belveze@univ-rennes.fr
+      affiliation: 
+        - name: Université de Rennes
+          city: Rennes
+
+format: 
+    revealjs:
+        slide-number: c/t
+#        show-slide-number: # print
+#       show-notes: separate-page
+        embed-resources: true
+        transition: convex
+        from: markdown+emoji
+        theme: [dark, monstyle.css]
+        reveal_plugins: [menu]
+        reveal_options: 
+          menu: 
+            numbers: true
+
+bibliography: references.bib
+csl: apa.csl
+---
+
+# {background-color="#fef1da"}
+
+:::: {.columns}
+:::{.column width="50%"}
+![](images/logo_ardoise_500.png){ width="50%" }
+:::
+:::{.column width="50%"}
+![](images/logo_printemps_donnee_500.png)
+![](images/inria.png)
+:::
+::::
+
+# {background-color="#fef1da"}
+
+::::{.columns}
+:::{.column width="50%"}
+
+<img src="images/code.gif" width="400" height="600">
+
+
+:::
+:::{.column width="50%"}
+:::{.r-fit-text}
+If you ever find yourself in an award committee, or a grant funding panel, or a search committee, may you voice these thoughts out loud. **Software development contributions are immensely valuable**.
+
+Software developed by PhD students and postdocs without any formal training **has gone on to save academia many millions on software licenses**, in addition to **enabling research that was not possible otherwise**. 
+
+I wish this had been quantified. 
+
+Let s not take it for granted.
+
+(Albert Cardona)
+:::
+:::
+::::
+::::{.notes}
+Si vous vous trouvez un jour dans un jury pour délivrer un prix, ou bien dans une commission de financement ou un comité de recherche, puissiez-vous dire bien haut ce qui suit: les contributions au développement logiciel ont une valeur immense.
+
+Le logiciel développé par des doctorants et des post-docs, qui n'ont jamais vraiment été formés à ça, ont permis d'économiser au monde de la recherche des millions en licences informatiques, en plus d'avoir permis des avancées dans la recherche qui n'auront pas été possibles sans cela. 
+
+J'aurais aimé que cela ait pu être mesuré
+
+Ne considérons pas cela comme allant de soi.
+
+(Albert Cardona)
+::::
+
+# {background-color="#fef1da"}
+
+Le code source pour la recherche est important à conserver, partager et rendre visible pour les raisons suivantes: 
+
+:::{.incremental}
+- ça permet d'assurer la reproductibilité de l'expérience
+- ça permet d'économiser des heures de développement
+- ça permet de réaliser du code adapté à une situation qui ne pourrait pas être développé par le marché
+:::
+
+# code source ? {background-color="#fef1da"}
+
+:::: {.r-fit-text}
+:::{.incremental}
+**Algorithme** : décrit le déroulé pour la résolution d’un problème posé.
+
+**Code source** : mise en oeuvre et formalisation de l’algorithme dans un langage
+informatique (par exemple python, C++, java ...). C’est un (ou plusieurs)
+fichier(s) texte.
+
+**Exécutable** : traduction du code source (en général via un compilateur ou un
+interpréteur) en code binaire compréhensible par l’ordinateur.
+
+**Logiciel** : en général, l’ensemble global comprenant le code source et/ou
+l’exécutable, et le plus souvent la documentation, des exemples d’utilisation,
+éventuellement les dépendances ... et évidemment la licence associée
+
+(source : Violaine Louvet :notebook: @ )
+:::
+::::
+
+## Forges / archives / répertoires {background-color="#fef1da"}
+
+:::{.incremental}
+- **la forge** : utile pour maintenir du code, mais pas pour le conserver
+- **l'archive** : utile pour conserver du code, mais pas pour le rendre visible
+- **le répertoire HAL** : utile pour donner accès au code, en lien avec la publication
+:::
+
+# {background-iframe="export/cosmoscope.html"}
+
+# Place à la démo
+
+![](images/procedure.png)
+
+# bibliographie
+
+
+```
+
+
