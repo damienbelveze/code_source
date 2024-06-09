@@ -5,15 +5,11 @@ date: 13/06/2024
 author: 
     - name: Jozefina Sadowska
       email: josephine.sadowska@inria.fr
-      affilisation: 
-        - name: INRIA
-          city: Rennes
+      affiliation: INRIA
           
     - name: Damien Belvèze
       email: damien.belveze@univ-rennes.fr
-      affiliation: 
-        - name: Université de Rennes
-          city: Rennes
+      affiliation: Université de Rennes
 
 format: 
     revealjs:
@@ -107,7 +103,7 @@ interpréteur) en code binaire compréhensible par l’ordinateur.
 l’exécutable, et le plus souvent la documentation, des exemples d’utilisation,
 éventuellement les dépendances ... et évidemment la licence associée
 
-(source : Violaine Louvet :notebook: @ )
+(source : Violaine Louvet :notebook: @louvetLogicielsCodesSources2023a )
 :::
 ::::
 
@@ -123,11 +119,18 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
 
 # Place à la démo
 
-![](images/procedure.png)
+![](images/procedure.png){ width="70%"}
+:notebook: @louvetLogicielsCodesSources2023a
 
-# bibliographie
+# Crédits
 
+- graphe réalisé avec Cosma :notebook: @perretCosma2024
+- présentation réalisée avec Quarto :notebook: @QuartodevQuartocliOpensource
 
-```
+Gif source code walking man sur [gifer](https://i.gifer.com/5TMy.gif)
+
+# Références
+
+ 
 
 
