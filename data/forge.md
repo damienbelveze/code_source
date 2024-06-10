@@ -16,3 +16,5 @@ Les forges commerciales, comme Github, peuvent également faire servir le code p
 
 Pour conserver du code source de manière pérenne, il est nécessaire de s'en remettre à une archive, comme celle de [[Software Heritage]].
 
+Afin de faciliter l'export du code vers Software Heritage puis vers HAL, remplir un fichier [[codemeta]].json à l'aide du [générateur de code meta](https://codemeta.github.io/codemeta-generator/)
+

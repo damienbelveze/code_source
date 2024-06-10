@@ -4,7 +4,7 @@ subtitle: "Printemps de la donnée 2024"
 date: 13/06/2024
 author: 
     - name: Jozefina Sadowska
-      email: josephine.sadowska@inria.fr
+      email: jozefina.sadowska@inria.fr
       affiliation: INRIA
           
     - name: Damien Belvèze
@@ -111,9 +111,32 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
 
 :::{.incremental}
 - **la forge** : utile pour maintenir du code, mais pas pour le conserver
-- **l'archive** : utile pour conserver du code, mais pas pour le rendre visible
-- **le répertoire HAL** : utile pour donner accès au code, en lien avec la publication
+- **l'archive Software Heritage** : utile pour conserver du code, mais pas pour le rendre visible
+- **l'archive HAL** : utile pour donner accès au code, en lien avec la publication
 :::
+
+# {background-color="#fef1da"}
+
+**Pourquoi utiliser HAL pour diffuser du code source ?**
+
+:::: {.panel-tabset}
+
+### citation
+
+![](images/citer.png)
+
+
+### publi liée
+
+![](images/publication_associee.png)
+
+### export
+
+  * [CV de chercheur/chercheuse](https://cv.hal.science/arthur-perret)
+  * page web de labo
+  * Rapports d'activité
+  
+::::
 
 # {background-iframe="export/cosmoscope.html"}
 
