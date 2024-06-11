@@ -74,9 +74,16 @@ J'aurais aimé que cela ait pu être mesuré
 Ne considérons pas cela comme allant de soi.
 
 (Albert Cardona)
+
+
+L'enjeu est celui de la prise en compte du développement de code source, de la contribution ou de l'audit de code source recherche dans la carrière du chercheur : comment récompenser ces travaux qui occupent de plus en plus de place dans le travail du chercheur mais sont passés sous silence dans les évaluations ? 
+
+
 ::::
 
 # {background-color="#fef1da"}
+
+En 2021, seulement 20% des publications donnaient accès au code source sous-jacent :notebook: @badolatoHighlightsSoftwarePillar2024
 
 Le code source pour la recherche est important à conserver, partager et rendre visible pour les raisons suivantes: 
 
