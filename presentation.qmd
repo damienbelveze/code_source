@@ -1,7 +1,7 @@
 ---
 title: "préserver et ouvrir ses codes sources et logiciels "
 subtitle: "Printemps de la donnée 2024"
-date: 13/06/2024
+date: 20240613
 author: 
     - name: Jozefina Sadowska
       email: jozefina.sadowska@inria.fr
@@ -114,7 +114,7 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
 :::
 ::::
 
-## Forges / archives / répertoires {background-color="#fef1da"}
+## Forges / archives {background-color="#fef1da"}
 
 :::{.incremental}
 - **la forge** : utile pour maintenir du code, mais pas pour le conserver
