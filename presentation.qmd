@@ -1,7 +1,8 @@
 ---
 title: "préserver et ouvrir ses codes sources et logiciels "
 subtitle: "Printemps de la donnée 2024"
-date: 20240613
+date: 2024/06/13
+date-format: "MMM D, YYYY"
 author: 
     - name: Jozefina Sadowska
       email: jozefina.sadowska@inria.fr
