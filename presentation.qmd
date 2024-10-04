@@ -148,12 +148,96 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
 
 # {background-iframe="export/cosmoscope.html"}
 
-# Place à la démo
+## de la Forge à HAL en passant par Software Heritage {background-color="#fef1da"}
 
 ![](images/procedure.png){ width="70%"}
 :notebook: @louvetLogicielsCodesSources2023a
 
+## Quels fichiers associer : 1. Le README {background-color="#fef1da"}
+
+:::{.smaller}
+★ Obligatoire:  
+  ○ Nom du logiciel / projet  
+  ○ Description du projet  
+
+★ Recommandé:  
+  ○ Site du projet  
+  ○ Lien vers la documentation  
+  ○ Contact & support  
+  ○ Liste des fonctionnalités  
+  ○ Environnement de développement  
+    ■ build, installation, requirements  
+    ■ comment exécuter le code  
+:::
+
+## Quels fichiers associer : 1. Le README {background-color="#fef1da"}
+
+★ Possible:  
+  ○ Usage - comment utiliser le code  
+  ○ Nouvelles récentes du projet  
+  ○ Visuels du logiciel 
+
+  
+## Quels fichiers associer : 2. Le fichier codemeta {background-color="#fef1da"}
+
+::::{.columns}
+:::{.column width="50%"}
+<img src="images/logo_json.png" width="60%">
+:::
+:::{.column width="50%"}
+:::{.incremental}
+- Le codemeta est crucial pour l'interopérabilité entre les systèmes
+
+- Il peut être généré facilement au moyen d'un [formulaire](https://codemeta.github.io/codemeta-generator/)
+
+- [Exemple de codemeta](https://github.com/damienbelveze/replicabilite_code_source/blob/main/codemeta.json)
+:::
+:::
+::::
+## Quels fichiers associer : 3. fichiers relatifs à la réplicabilité computationnelle {background-color="#fef1da"}
+
+:::: {.columns}
+:::{.column width="50%"}
+::: {.incremental}
+- env/renv (environnements virtuels)
+- requirements
+- images Docker et dockerfiles
+:::
+:::
+:::{.column width="50%"}
+![](images/codemeta.png)
+:::
+::::
+
+
+
+## Archivage du code depuis la forge
+
+<p>- plugin pour le navigateur</p>
+<p><a href="https://addons.mozilla.org/fr/firefox/addon/updateswh/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search" target="_blank"><img src="images/plugin_SWH.png"></a></p>
+
+- ["Save code now](https://archive.softwareheritage.org/save/list/)
+
+## le rôle du SHWID {background-color="#fef1da"}
+
+- identifiant unique et pérenne
+- interopérabilité SoftWare Heritage et HAL
+
+Exemple de SWHID : 
+```swh:1:dir:2d5fbdaa6694717a7b6dde48e1b7946cb388a21f```
+
+![](images/swhid_popup.png)
+
+## Utilisation du SWHID dans HAL {background-color="#fef1da"}
+
+démonstration avec la [version preprod de HAL](https://hal.halpreprod.archives-ouvertes.fr/)
+
+
+
+
 # Crédits
+
+présentation partiellement réalisée à partir de la présentation de Jozefina Sadowska présentée au Printemps de la Donnée 2024 @
 
 - graphe réalisé avec Cosma :notebook: @perretCosma2024
 - présentation réalisée avec Quarto :notebook: @QuartodevQuartocliOpensource
