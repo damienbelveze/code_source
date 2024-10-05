@@ -143,7 +143,15 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
   
 ::::
 
-## {background-iframe="export/cosmoscope.html"}
+## {background-iframe="https://damienbelveze.github.io/code_source/export/cosmoscope.html"}
+
+:::{.notes}
+Si les tuiles ne s'ouvrent pas dans le navigateur, ouvrir une nouvelle fenêtre : 
+
+<a href="https://damienbelveze.github.io/code_source/export/cosmoscope.html" target="_blank">cosmoscope</a>
+
+
+:::
 
 ## de la Forge à HAL en passant par Software Heritage {background-color="#fef1da"}
 
