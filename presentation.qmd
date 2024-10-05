@@ -4,10 +4,6 @@ subtitle: "Printemps de la donnée 2024"
 date: 2024/06/13
 date-format: "MMM D, YYYY"
 author: 
-    - name: Jozefina Sadowska
-      email: jozefina.sadowska@inria.fr
-      affiliation: INRIA
-          
     - name: Damien Belvèze
       email: damien.belveze@univ-rennes.fr
       affiliation: Université de Rennes
@@ -61,7 +57,7 @@ I wish this had been quantified.
 
 Let s not take it for granted.
 
-(Albert Cardona)
+(Albert Cardona) :notebook: @cardonaIfYouEver2024
 :::
 :::
 ::::
@@ -138,6 +134,7 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
 
 ![](images/publication_associee.png)
 
+
 ### export
 
   * [CV de chercheur/chercheuse](https://cv.hal.science/arthur-perret)
@@ -146,16 +143,17 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
   
 ::::
 
-# {background-iframe="export/cosmoscope.html"}
+## {background-iframe="export/cosmoscope.html"}
 
 ## de la Forge à HAL en passant par Software Heritage {background-color="#fef1da"}
 
-![](images/procedure.png){ width="70%"}
+![](images/procedure.png){ width="60%"}
 :notebook: @louvetLogicielsCodesSources2023a
 
 ## Quels fichiers associer : 1. Le README {background-color="#fef1da"}
 
-:::{.smaller}
+::::{.smaller}
+:::{.incremental}
 ★ Obligatoire:  
   ○ Nom du logiciel / projet  
   ○ Description du projet  
@@ -167,8 +165,9 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
   ○ Liste des fonctionnalités  
   ○ Environnement de développement  
     ■ build, installation, requirements  
-    ■ comment exécuter le code  
+    ■ comment exécuter le code
 :::
+::::
 
 ## Quels fichiers associer : 1. Le README {background-color="#fef1da"}
 
@@ -199,13 +198,13 @@ l’exécutable, et le plus souvent la documentation, des exemples d’utilisati
 :::: {.columns}
 :::{.column width="50%"}
 ::: {.incremental}
-- env/renv (environnements virtuels)
+- env/renv :notebook: @wickhamIntroductionRenv (environnements virtuels)
 - requirements
 - images Docker et dockerfiles
 :::
 :::
 :::{.column width="50%"}
-![](images/codemeta.png)
+![schéma de Renv](images/renv.png)
 :::
 ::::
 
@@ -228,24 +227,43 @@ Exemple de SWHID :
 
 ![](images/swhid_popup.png)
 
+:::{.notes}
+copier-coller le SWHID en format court
+prendre garde à ne pas copier le SWHID avec le point-virgule final (le SWHID ne serait pas reconnu dans HAL)
+:::
+
+
 ## Utilisation du SWHID dans HAL {background-color="#fef1da"}
 
 démonstration avec la [version preprod de HAL](https://hal.halpreprod.archives-ouvertes.fr/)
 
+Si le codemeta est bien formaté, il y a peu de métadonnées à ajouter
 
+:::{.notes}
+Il est nécessaire de se créer au préalable un compte sur HAL-preprod (bac-à-sable de HAL sans modération, données supprimées chaque semaine)
+Le compte HAL habituel n'est pas forcément indiqué ici. Suivre la [procédure de la BULAC](Tutoriel_HAL_preprod.pdf)
+:::
+
+
+# {background-color="#fef1da"}
+
+<img src="images/question.gif">
 
 
 # Crédits
 
-présentation partiellement réalisée à partir de la présentation de Jozefina Sadowska présentée au Printemps de la Donnée 2024 @
+Cet atelier est organisé par l'Atelier de la Donnée ARDoISE et financé par le [Fonds National pour la Science Ouverte](https://www.ouvrirlascience.fr/le-fonds-national-pour-la-science-ouverte/). 
 
-- graphe réalisé avec Cosma :notebook: @perretCosma2024
-- présentation réalisée avec Quarto :notebook: @QuartodevQuartocliOpensource
+La présentation a été partiellement réaslisée à partir de la présentation de Jozefina Sadowska lors du Printemps de la Donnée 2024
 
-Gif source code walking man sur [gifer](https://i.gifer.com/5TMy.gif)
+le graphe central est produit par Cosma :notebook: @perretCosma2024
+le support de présentation est réalisé avec Quarto :notebook: @QuartodevQuartocliOpensource
+
 
 # Références
 
  
+Gif source code walking man sur [gifer](https://i.gifer.com/5TMy.gif)
+<p>
 
 
